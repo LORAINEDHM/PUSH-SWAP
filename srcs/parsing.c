@@ -6,7 +6,7 @@
 /*   By: lduhamel <lduhamel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 11:49:50 by lduhamel          #+#    #+#             */
-/*   Updated: 2021/09/15 16:42:09 by lduhamel         ###   ########.fr       */
+/*   Updated: 2021/09/15 17:02:11 by lduhamel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,12 +62,12 @@ int	*ps_is_valid(int lst_size, char **str_tab)
 	int	neg;
 
 	i = 0;
-	neg = 0;
 	tab = malloc(sizeof(int) * lst_size);
 	if (!(tab))
 		exit (0);
 	while (str_tab[i])
 	{
+		neg = 0;
 		if (!(ps_check_char_validity(str_tab[i])))
 			exit (0);
 		if (str_tab[i][0] == '-')

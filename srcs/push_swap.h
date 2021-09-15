@@ -6,7 +6,7 @@
 /*   By: lduhamel <lduhamel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/15 12:20:23 by lduhamel          #+#    #+#             */
-/*   Updated: 2021/09/15 16:39:52 by lduhamel         ###   ########.fr       */
+/*   Updated: 2021/09/15 16:58:43 by lduhamel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 # include <limits.h>
 # include <errno.h>
 # include <unistd.h>
+# include <stdio.h>
 
 /*
 ** ------------------------- Structure Definitions -----------------------------
